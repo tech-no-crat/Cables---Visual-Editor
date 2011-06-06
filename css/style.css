@@ -25,3 +25,8 @@ p
     padding: 2px;
 }
 
+div#score
+{
+    font-size: 200%;
+    font-weight: bold;
+}
