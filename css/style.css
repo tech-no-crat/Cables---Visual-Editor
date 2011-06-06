@@ -1,0 +1,22 @@
+div#content
+{
+    width: 960px;
+    margin: 10px auto;
+    background-color: #DAF2EF;
+    border-radius: 15px;
+    text-align: center;
+}
+
+h1
+{
+    margin-bottom: 5px;
+    padding-top: 5px;
+    color: #B8002E ;
+}
+
+textarea
+{
+    height:  200px;
+    width: 800px;
+}
+

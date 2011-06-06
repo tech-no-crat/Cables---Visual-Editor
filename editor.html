@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Cables - Visual Editor</title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> 
+        <script type="text/javascript" src="js/logic.js"></script>
+        <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
+        <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print"> 
+        <!--[if lt IE 8]>
+        <link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection">
+        <![endif]-->
+        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css"> 
+
+    </head>
+    <body onLoad = "javascript:start()">
+        <div id='content'>
+            <h1>Cables - Visual Editor</h1>
+            <details>
+            <p class="large">
+            This is a visual editor for the (unnamed) problem of 4th
+            <a href="http://www.job-fair.gr" >jobfair</a>
+            <a href="http://www.job-fair.gr/contests/" >contest</a> by <a href=http://twitter.com/#!/tech_no_crat" >me</a>.
+            You can read the 
+            <a href="http://www.softlab.ntua.gr/icfp-train/day2/problem.php" >problem statement here</a>.
+            </p>
+            </details>
+
+            <canvas id="editor" width="800" height="320"><p>Your browser does not support the HTML5 canvas element.</p></canvas>
+            <div id='buttons'>
+                <button id='write'>Visual editor to text</button>
+                <button id='read'>Text to visual editor</button>
+            </div>
+            <textarea id='solution'>16 40
+........................................
+........................................
+........................................
+........................................
+.....xxx......x.......xxxx..............
+......x.......x.......x........x........
+......x.......x.......x.................
+......x..x.x..x.x.....xxx.xx...x.x.x....
+......x.x...x.x..x....x.....x..x.xx.....
+......x.x...x.x..x....x...xxx..x.x......
+......x.x...x.x..x....x..x..x..x.x......
+......x..x.x..x.x.....x...xx.x.x.x......
+....xx..................................
+........................................
+........................................
+........................................ 
+            </textarea>
+        </div>
+
+        <detail>
+        <p>This editor is uses the HTML5 canvas element and therefore you need a decent browser to use it.</p>
+        </detail>
+    </body>
+
+</html> 
